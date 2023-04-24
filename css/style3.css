@@ -1,0 +1,47 @@
+
+.container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    margin-bottom: 80px;
+    grid-template-columns: 50% 50%;
+}
+
+.box{   
+    border: 7px solid;
+    border-color: ghostwhite;
+    border-radius: 6px;
+    margin-bottom: -35px;
+    padding: 17px;
+}
+
+#one{
+    background-image: url(../img/5.jpg);
+    background-size: 104%;
+    color: #ffffff;
+    margin-right: 45px;  
+}
+#one:hover{
+    border: 2px solid;
+    
+    
+}
+#one:hover .head-blog{
+    color: #ffffff;
+}
+#two{
+    margin-left: 45px;    
+    
+}
+#two:hover{
+    border: 2px solid;    
+    background-image: url(../img/6.jfif);
+    background-size: 104%;
+    color: #ffffff;
+}
+#two:hover .head-blog2{
+    color: #ffffff;
+}
+#two:hover .date{
+    color: #ffffff;
+}

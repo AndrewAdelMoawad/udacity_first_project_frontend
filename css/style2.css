@@ -1,0 +1,32 @@
+/*header*/
+
+.header{
+    display: grid;
+    margin-bottom: 45px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    background-color: #d7d8fa;
+    grid-template-columns: 20% 60% 20%;
+}
+/*end header*/
+
+/*footer*/
+.footer{
+    padding-top: 15px;
+    width: 100%;
+    display: grid;
+    background-color: #c9cdd8;
+    justify-items: center;
+    
+}
+.footer p{
+    margin: auto;
+}
+.footer-icon {
+    margin: 15px;
+}
+.footer-icon i{
+margin: 5px;
+}
+/*end footer*/

@@ -1,0 +1,43 @@
+
+.head-blog{
+    color: blue;
+}
+.date{
+    color: #a0a0a0;
+}
+.head-blog2{
+    color: green;
+}
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.but button{
+    border: none;
+    background-color: darkgrey;
+    font-style: oblique;
+    font-weight: bold;
+    color: darkslategray;
+    height: 40px;
+    font-size: 20px;
+}
+.but button:hover{
+    background-color: #c9cdd8;
+    color: #588f8f;
+}
+.container button{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+.container button:hover{
+    border: #588f8f;
+    background-color: blue;
+}
